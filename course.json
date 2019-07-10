@@ -6,7 +6,7 @@
   "scenarios": [
     {
       "title": "实验一：数据源连接",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
@@ -18,7 +18,7 @@
     },
     {
       "title": "实验二：数据查看",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
@@ -30,7 +30,7 @@
     },
     {
       "title": "实验三：数据切片",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
@@ -42,7 +42,7 @@
     },
     {
       "title": "实验四：数据编辑",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
@@ -54,7 +54,7 @@
     },
     {
       "title": "实验五：描述性统计",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
@@ -66,7 +66,7 @@
     },
     {
       "title": "实验六：点图和条形图",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
@@ -78,7 +78,7 @@
     },
     {
       "title": "实验七：直方图和核密度图",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
@@ -90,7 +90,7 @@
     },
     {
       "title": "实验八：箱线图",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
@@ -102,7 +102,7 @@
     },
     {
       "title": "实验九：Hexbin图",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
@@ -114,7 +114,7 @@
     },
     {
       "title": "实验十：散点图矩阵",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
@@ -126,7 +126,7 @@
     },
     {
       "title": "1",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:cloudware-rstudio-latest",
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
