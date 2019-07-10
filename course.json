@@ -10,9 +10,10 @@
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "preload": "scripts/pre.sh",
           "title": "实验一：数据源连接",
-          "text": "scenarios/实验一：数据源连接.md"
+          "text": "scenarios/实验一：数据源连接.md",
+          "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
@@ -22,9 +23,10 @@
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "preload": "scripts/pre.sh",
           "title": "实验二：数据查看",
-          "text": "scenarios/实验二：数据查看.md"
+          "text": "scenarios/实验二：数据查看.md",
+	          "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
@@ -34,9 +36,11 @@
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "preload": "scripts/pre.sh",
+
           "title": "实验三：数据切片",
-          "text": "scenarios/实验三：数据切片.md"
+          "text": "scenarios/实验三：数据切片.md",
+ 	   "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
@@ -46,9 +50,11 @@
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "preload": "scripts/pre.sh",
           "title": "实验四：数据编辑",
-          "text": "scenarios/实验四：数据编辑.md"
+          "text": "scenarios/实验四：数据编辑.md",
+	"program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
+		
         }
       ]
     },
@@ -58,9 +64,10 @@
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "preload": "scripts/pre.sh",
           "title": "实验五：描述性统计",
-          "text": "scenarios/实验五：描述性统计.md"
+          "text": "scenarios/实验五：描述性统计.md",
+	  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
@@ -70,9 +77,10 @@
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "preload": "scripts/pre.sh",
           "title": "实验六：点图和条形图",
-          "text": "scenarios/实验六：点图和条形图.md"
+          "text": "scenarios/实验六：点图和条形图.md",
+		  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
@@ -82,9 +90,10 @@
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "preload": "scripts/pre.sh",
           "title": "实验七：直方图和核密度图",
-          "text": "scenarios/实验七：直方图和核密度图.md"
+          "text": "scenarios/实验七：直方图和核密度图.md",
+		  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
@@ -94,9 +103,10 @@
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "preload": "scripts/pre.sh",
           "title": "实验八：箱线图",
-          "text": "scenarios/实验八：箱线图.md"
+          "text": "scenarios/实验八：箱线图.md",
+		  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
@@ -106,9 +116,10 @@
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "preload": "scripts/pre.sh",
           "title": "实验九：Hexbin图",
-          "text": "scenarios/实验九：Hexbin图.md"
+          "text": "scenarios/实验九：Hexbin图.md",
+		  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
@@ -118,9 +129,10 @@
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "preload": "scripts/pre.sh",
           "title": "实验十：散点图矩阵",
-          "text": "scenarios/实验十：散点图矩阵.md"
+          "text": "scenarios/实验十：散点图矩阵.md",
+		  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     },
@@ -130,9 +142,10 @@
 	  "binds": ["/kfcampus/public:/root/Desktop/myFile", "/userfile:/data:ro"],
       "steps": [
         {
-          "preload": "scripts/pre.sh",
           "title": "1",
-          "text": "scenarios/1.md"
+          "text": "scenarios/1.md",
+		  "program": "scripts/pre.sh",
+	   "extraTab": "[domain]:[:5678]/desktop.html"
         }
       ]
     }
