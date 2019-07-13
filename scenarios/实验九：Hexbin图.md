@@ -95,7 +95,7 @@ UseMethod("hexbinplot")
 
 # 实验步骤
 
-点击屏幕右上角Application Menu -&gt; development -&gt; rstudio,打开实验环境
+点击屏幕上的图标rstudio，输入账户密码（均为guest),打开实验环境
 
 模拟生成10000组数的散点图
 
@@ -107,7 +107,7 @@ UseMethod("hexbinplot")
 > points(x, lr$coefficients[1] + lr$coefficients[2] * x,type = "l", col = 1)
 ```
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/1-2-9-1_20171107075032.032.jpeg)
+![](/images/1-2-9-1_20171107075032.032.jpeg)
 
 尽管我们可以运用颜色和透明度来解决这个问题，但是运用Hexbin图会更好。Hexbin图结合了散点图和直方图的特点。和散点图类似，Hexbin图也是在x，y坐标轴画图，第三个维度是运用阴影来描述数据的集中度。
 
@@ -118,7 +118,7 @@ UseMethod("hexbinplot")
 > hexbinplot(y ~ x,type=c("g", "r"))
 ```
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/1-2-9-2_20171107075118.018.jpeg)
+![](/images/1-2-9-2_20171107075118.018.jpeg)
 
 如下面的例子使用随机生成的大量数据绘制hexbin图：
 
@@ -132,13 +132,13 @@ UseMethod("hexbinplot")
 +            trans = sqrt, inv = function(x) x^2)
 ```
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/1-2-9-3_20171107075209.009.jpeg)
+![](/images/1-2-9-3_20171107075209.009.jpeg)
 
 ```
 > hexbinplot(y ~ x | a, mixdata)
 ```
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/1-2-9-4_20171107075307.007.jpeg)
+![](/images/1-2-9-4_20171107075307.007.jpeg)
 同样hexbinplot函数还可以绘制不同类型的图形：
 
 ```
@@ -146,7 +146,7 @@ UseMethod("hexbinplot")
 +            xbnds = "data", ybnds = "data")
 ```
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/1-2-9-5_20171107075527.027.jpeg)
+![](/images/1-2-9-5_20171107075527.027.jpeg)
 另外两个例子：
 
 ```
@@ -155,5 +155,5 @@ UseMethod("hexbinplot")
 +            border = FALSE, type = c("g", "smooth"))
 ```
 
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/1-2-9-6_20171107075631.031.jpeg)
-![](https://kfcoding-static.oss-cn-hangzhou.aliyuncs.com/gitcourse-bigdata/1-2-9-7_20171107075744.044.jpeg)
+![](/images/1-2-9-6_20171107075631.031.jpeg)
+![](/images/1-2-9-7_20171107075744.044.jpeg)
